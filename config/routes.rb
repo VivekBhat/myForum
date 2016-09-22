@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'answers/create'
+
+  get 'answers/destroy'
+
   root  "home#index"
 
   resources :questions do
